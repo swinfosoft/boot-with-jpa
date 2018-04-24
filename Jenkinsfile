@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sh mvn clean build'
+        echo 'code will be build here.'
       }
     }
     stage('Test') {
