@@ -1,17 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Initialize') {
+    stage('Build') {
       steps {
         echo 'code will be build here.'
-        sh '''echo $JAVA_HOME
-
-
-
-
-
-
-'''
+        sh 'mvn clean compile'
       }
     }
     stage('Test') {
