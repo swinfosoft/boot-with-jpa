@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'code will be build here.'
         sh 'mvn clean compile'
+        input(message: 'The code is built, do you want to test it, yes/no?', ok: 'yes')
       }
     }
     stage('Test') {
