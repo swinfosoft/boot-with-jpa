@@ -13,8 +13,4 @@ pipeline {
       }
     }
   }
-  environment {
-    MAVEN_HOME = '/usr/local/apache-maven'
-    JAVA_HOME = '/usr/lib/jvm/jdk1.8.0_05'
-  }
 }
