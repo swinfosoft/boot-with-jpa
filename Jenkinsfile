@@ -8,6 +8,6 @@ pipeline {
     }
   }
   environment {
-    mvnHome = ' tool \'Maven\''
+    tool = 'Maven'
   }
 }
