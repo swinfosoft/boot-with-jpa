@@ -14,6 +14,6 @@ pipeline {
     }
   }
   environment {
-    MAVEN_HOME = 'tools/hudson.tasks.Maven_MavenInstallation/Maven/bin'
+    MAVEN_HOME = '/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin'
   }
 }
