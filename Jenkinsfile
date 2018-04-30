@@ -14,7 +14,7 @@ pipeline {
     }
   }
   environment {
-    MAVEN_HOME = '/usr/share/maven'
+    MAVEN_HOME = '/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven'
     JAVA_HOME = '/docker-java-home'
   }
 }
