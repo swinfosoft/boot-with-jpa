@@ -15,6 +15,5 @@ pipeline {
   }
   environment {
     MAVEN_HOME = 'tools/hudson.tasks.Maven_MavenInstallation/Maven/bin'
-    JAVA_HOME = '/docker-java-home'
   }
 }
