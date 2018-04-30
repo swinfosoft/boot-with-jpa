@@ -14,7 +14,7 @@ pipeline {
     }
   }
   environment {
-    MAVEN_HOME = '/home/jenkins/apache-maven-3.5.3'
+    MAVEN_HOME = '/usr/share/maven'
     JAVA_HOME = '/docker-java-home'
   }
 }
