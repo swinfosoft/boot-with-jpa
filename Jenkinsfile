@@ -3,11 +3,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn clean compile'
+        sh 'bin/mvn clean compile'
       }
     }
   }
   environment {
-    tool = 'Maven'
+    MAVEN_HOME = '/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Maven'
+    JAVA_HOME = '/usr/lib/jvm/java-8-openjdk-amd64/jre'
   }
 }
